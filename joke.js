@@ -1,9 +1,9 @@
 function generateJoke(event) {
     event.preventDefault();
+    let apiKey = "bafb81c036f1dc4bfbb21532bb2ot295";
+    let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-    let jokeElement = document.querySelector("#joke")
 
-    jokeElement.innerHTML = "Funny joke";
 
 }
 
